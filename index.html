@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de música</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container" id="player">
+
+        <h1>Reproductor de música</h1>
+
+
+        <div class="upload">
+            <input type="file" id="file-input" accept="audio/*">
+            <label for="file-input">Subir archivos</label>
+        </div>
+
+        <audio id="audio" controls preload="auto"></audio>
+    </div>
+
+    <footer>
+        Hecho con ❤️ por <a href="https://github.com/carlos-daniel07" target="_blank" rel="noopener noreferrer">Carlos Arteaga</a>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
